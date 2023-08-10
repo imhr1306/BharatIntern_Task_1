@@ -1,0 +1,42 @@
+#input-container {
+    display: flex;
+}
+
+.input-childs {
+    margin: 10px;
+}
+
+#convert-to:hover{
+    cursor: default;
+}
+
+#converted-value {
+    padding-top: 50px;
+    font-weight: bold;
+}
+
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+html {
+    background-color: peachpuff;
+}
+hr{
+    background: #fff;
+  }
+  .copywrite{
+    position: fixed;
+    padding: 10px 10px 10px 10px;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+  }
